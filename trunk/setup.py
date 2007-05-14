@@ -4,9 +4,11 @@ from distutils.core import setup
 
 setup(name='smugworder',
       version='1.0',
-      description='smugworder',
+      description='Bulk keyword renaming for smugmug.com.',
       author='Will Robinson',
       author_email='willrobinson@gmail.com',
-      url='http://
-      packages=['smugworder', 'http://code.google.com/p/smugworder/'],
+      license='GNU GPL 2.0',
+      url='http://code.google.com/p/smugworder/',
+      py_modules=['smugworder', 'xmltramp'],
+      data_files=[('.', ['./LICENSE'])],
       )
