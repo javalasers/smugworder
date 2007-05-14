@@ -1,0 +1,7 @@
+To run:
+
+Just execute
+  ./smugworder.py
+
+(You must have Python installed, which shouldn't
+be a problem on any modern Linux distro).
